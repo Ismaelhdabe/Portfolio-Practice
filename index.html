@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- link to css bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+<!-- mapBox api stle -->
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+
+    <!-- css STYLE SHEET -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Bootstrap Portfolio</title>
+</head>
+<body>
+     <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand">Ismael's Frontend Portfolio</a>
+
+        <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#cert" class="nav-link">Expertise</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#questions" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#instructors" class="nav-link">Iphone</a>
+                </li>                              
+            </ul>
+        </div>
+    </div>
+</nav>
+        <!-- SHOWCASE -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Became a <span class="text-warning">Web Developer
+                    </span></h1>
+                    <p class="lead my-4">
+                        Ismael Focuses on problem solving, creativly producing new ideas and dedicates 
+                        his time well with hard work and productivity within other team members
+                    </p>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#share">Share Contact Information</button>
+                </div>
+                <img class="img-fluid w-50 d-sm-block" src="/programming_re_kg9v.svg" alt="">
+            </div>
+        </div>
+    </section> 
+
+
+        <!-- News Letter -->
+<section class="section bg-primary text-light p-5">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Sign up for My News Letter</h3>
+
+            <div class="input-group news-input">
+                <input type="text" 
+                class="form-control" 
+                placeholder="Enter your Email" 
+                />
+                    <button
+                        class="btn btn-dark btn-lg" 
+                        type="button" >Button</button>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Boxes -->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Virtual
+                        </h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima pariatur quos. Illo, distinctio tenetur.
+                        </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Hybrid
+                        </h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima pariatur quos. Illo, distinctio tenetur.
+                        </p>
+                        <a href="#" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            In-person
+                        </h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima pariatur quos. Illo, distinctio tenetur.
+                        </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Certificate Section -->
+    <section id="cert" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="undraw_certificate_re_yadi.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Certified in the fundamentals of Software Development</h2>
+                    <p class="lead">Lorem ipsum dolor sit, 
+                        amet consectetur adipisicing elit. Dolorem veniam aspernatur, non rem omnis facere.
+                    </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium 
+                        voluptas corrupti ab, ea culpa, iste pariatur dicta ipsa natus 
+                        non sequi cum vel magnam nihil alias earum architecto a aperiam!
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                       <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Team Goals</h2>
+                    <p class="lead">Lorem ipsum dolor sit, 
+                        amet consectetur adipisicing elit. Dolorem veniam aspernatur, non rem omnis facere.
+                    </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium 
+                        voluptas corrupti ab, ea culpa, iste pariatur dicta ipsa natus 
+                        non sequi cum vel magnam nihil alias earum architecto a aperiam!
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                       <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="undraw_team_goals_re_4a3t.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- question accordion -->
+<section id="questions" class="p-5" >
+    <div class="container">
+            <h2 class="text-center mb-4">Get to know Ismael</h2>
+        <div class="accordion accordion-flush" id="questions">
+            <div class="accordion-item">
+                <!-- Item 1 -->
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" 
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#question-one" 
+                    aria-expanded="false" aria-controls="flush-collapseOne">
+                  Loaction
+                </button>
+              </h2>
+              <div id="question-one" class="accordion-collapse collapse" 
+              aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                <div class="accordion-body">Ismael is located in Atlanta, Georgia. 
+                    His preferance is to work remote but not opposed to the 
+                    idea of working in a office. Ismael is willing to travel 
+                    for work and move to any state to work. Ismael would like to live 
+                    somewhere for a year while working new for a company and then being 
+                    able to have the option to work remote back in his home city Atlanta when 
+                    hes comftorable enough.</div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" 
+                type="button" data-bs-toggle="collapse" data-bs-target="#question-two" 
+                aria-expanded="false" aria-controls="flush-collapsetwo">
+                 Background
+                </button>
+              </h2>
+              <div id="question-two" class="accordion-collapse collapse" 
+              aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+                <div class="accordion-body">Graduating Highschool in 2020, 
+                    I decided to pursue Real Estate. I grabbed by license by January 2021 and
+                    was a realtor of about 1 year. I decided I wasnt happy doing it full time 
+                    due to the market being very backwards so I started learning how to code for fun.
+                    By the end of 2021 I have been certified in langauges like JavaScript and Python,
+                    HTML, CSS, React and Redux. I am still interested in learning other languages and data bases
+                    so I can make full stack applications and programs.
+                </div>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#question-three" 
+                aria-expanded="false" aria-controls="flush-collapsethree">
+                  Contact Information
+                </button>
+              </h2>
+              <div id="question-three" class="accordion-collapse collapse" 
+              aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Cellphone Number: 704-804-3048</li>
+                        <li>Email: IsmaelHdabe@gmail.com</li>
+                        <li>LinkedIn: Ismael Hdabe</li>
+                        <li>Twitter: @IshHdabe</li>
+                        <li>GitHub: IsmaelHdabe</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<!-- Contact and Map -->
+<section class="p-5 text-primary">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md">
+                <h2 class="text-center mb-4">Contact Info</h2>
+                <ul class="list-group list-group-flush lead">
+                   
+                    <li class="list-group-item">
+                        <span class="fw-bold">Main Location:</span> Atlanta, Georgia
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Cellphone number:</span> 704-804-3048
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">LinkedIn</span> IsmaelHdabe
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Twitter:</span> IshHdabe
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">GitHub:</span> IsmaelHdabe
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="col-md">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead">
+                    Copyright &copy; 2022 Frontend Portfolio</p>
+                    <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                        <i class="bi bi-arrow-up-circle h1"></i>
+                    </a>
+            </div>
+    </footer>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="share" tabindex="-1" aria-labelledby="shareLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and Ismael will get back to you shortly</p>
+          <form>
+              <div class="mb-3">
+                  <label for="full-name" class="col-form-label">
+                    Full Name:
+                  </label>
+                  <input type="text" class="form-control" id="full-name">
+              </div>
+
+              <div class="mb-3">
+                <label for="Email" class="col-form-label">
+                    Email:
+                </label>
+                <input type="text" class="form-control" id="email">
+            </div>
+
+            <div class="mb-3">
+                <label for="phone" class="col-form-label">
+                    Phone Number:
+                </label>
+                <input type="text" class="form-control" id="phone">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+            <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    
+            <!-- MapBox api JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
+
+            <!-- My JS -->
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiaXNtYWVsaGRhYmUiLCJhIjoiY2t4dGp6OHF3MGJ0bzJ3cWZ4MDBqaW1sMSJ9.C-pY5C7e8WV9ifqklEk0tw';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-74.5, 40],
+            zoom: 9
+});
+
+map.addControl(new mapboxgl.NavigationControl());
+    </script>
+</body>
+</html>
